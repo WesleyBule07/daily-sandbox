@@ -3,5 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("")
+    path("converter" ,views.converter ,name="converter")
 ]
